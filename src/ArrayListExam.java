@@ -36,5 +36,6 @@ public class ArrayListExam {
         System.out.println(pic1.getMaxX());
         pic1.translate(100, 0);
         pic1.draw();
+
     }
 }
