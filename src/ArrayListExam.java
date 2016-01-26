@@ -33,8 +33,8 @@ public class ArrayListExam {
         // 첫 그림에서 30씩 옮겨서 출력
         for (int i = 0; i < list.size(); i++) {
             Picture pic = list.get(i);
-            pic.translate(width, 0);              // 최초 0 , 0 에서 그림이 그려지고,
-            width += pic.getWidth() + 30;         // +=로 width 에 30을 계속 더하면 for문 반복하면서 그곳에서 시작.
+            pic.translate(width, 0);             // 최초 0 , 0 에서 그림이 그려지고,
+            width += pic.getWidth() + 30;        // +=로 width 에 30을 계속 더하면 for문 반복하면서 그곳에서 시작.
             pic.draw();
             widthSum += pic.getWidth();
         }
@@ -53,8 +53,8 @@ public class ArrayListExam {
 //            if (pic.getWidth() < pic.getHeight()) {
 //                matches.add(pic);
 //                count++;                          // if문에 들어왔을때만 카운팅.
-//                pic.translate(width, 0);              // 최초 0 , 0 에서 그림이 그려지고,
-//                width += pic.getWidth() + 30;         // +=로 width 에 30을 계속 더하면 for문 반복하면서 그곳에서 시작.
+//                pic.translate(width, 0);          // 최초 0 , 0 에서 그림이 그려지고,
+//                width += pic.getWidth() + 30;     // +=로 width 에 30을 계속 더하면 for문 반복하면서 그곳에서 시작.
 //                pic.draw();
 //                break;                           //세로 사진의 첫번째 사진 출력  (for문을 break로 1회만 draw 하고 종료)
 //
